@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="//cdn.bootcss.com/moment.js/2.17.1/moment.min.js"></script>
+		<script src="./moment-dayinfo.js" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			moment.setFirstDay(1);
+			console.log("当月总周数：", moment.totalOfWeekOfMonth('2026-02-01'));
+			console.log("当日为第几周：", moment.weekOfMonth('2026-02-02'));
+			console.log("当日为第几个星期几：", moment.numOfDayOfWeek('2026-02-02'));
+			console.log("当月第几个星期几是几号：", moment.dateOfNumOfDayOfWeek('2026-02', 0, 1));
+		</script>
+	</body>
+</html>

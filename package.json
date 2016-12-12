@@ -1,0 +1,22 @@
+{
+  "name": "moment-dayinfo",
+  "version": "1.0.1",
+  "description": "the moment plugin for calculate the target day's info or month's info",
+  "main": "moment-dayinfo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazaff/moment-dayinfo.git"
+  },
+  "keywords": [
+    "moment"
+  ],
+  "author": "kazaff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kazaff/moment-dayinfo/issues"
+  },
+  "homepage": "https://github.com/kazaff/moment-dayinfo#readme"
+}

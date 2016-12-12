@@ -1,6 +1,6 @@
 {
   "name": "moment-dayinfo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "the moment plugin for calculate the target day's info or month's info",
   "main": "moment-dayinfo.js",
   "scripts": {
